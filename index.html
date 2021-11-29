@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>5 random numbers</title>
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body onload="randomNumbers()">
+		<div class="main-container">
+			<div class="box" id="rules">
+				<h4>Computer generated an array of 5 numbers (1-10).<br />
+				Enter a number to find out how many times that number exists within the array.</h4>
+			</div>
+			<div class="container">
+				<div class="box">
+					<button id="enterNumBtn" class="btn" onclick="userNumber()">Enter number</button>
+					<p id="displayResult"></p>
+				</div>
+				<div class="box">
+					<button id="showArrBtn" class="btn" onclick="displayArray()">Show the array</button>
+					<p id="showArray"></p>
+				</div>
+			</div>
+		</div>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>

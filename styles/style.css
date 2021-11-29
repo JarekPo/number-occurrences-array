@@ -1,0 +1,35 @@
+body{
+	color: #f5deb3;
+	background: #856d4d;
+	font-family: tahoma;
+	font-size: 2rem;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+}
+.box{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 40%;
+	margin-top: 15px;
+	outline: 1px solid #a52a2a;
+}
+.btn{
+	background: #f5deb3;
+	color: #856d4d;
+	padding: 1rem;
+	margin: 3rem;
+	font-size:1.5rem;
+	border: none;
+}
+.btn:hover{
+	background: #deb887;
+	color: #a52a2a;
+	cursor: pointer;
+}
+#rules{
+	outline: none;
+}
